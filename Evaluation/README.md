@@ -4,12 +4,17 @@
 
 This folder contains the files used in the experiments and evaluations. 
 
-1) Mapping_summary_to_transcripts.ipynb
-This notebook contains the code that was used to map the summaries that were provided in the RSS headers, to the transcripts in the dataset. 
-Key points to note - Not every episode in the XML is mapped to the test set. Hence the need for this step. 
+1) Mapping_summary_to_transcripts.ipynb   
+
+This notebook contains the code that was used to map the summaries that were provided in the RSS headers, to the transcripts in the dataset.   
+
+Key points to note - Not every episode in the XML is mapped to the test set. Hence the need for this step.   
+
 2) 
-3) Rogue_scores.ipynb
-This notebook contains the code used to generate the ROGUE scores and save them into required files. 
+3) Rogue_scores.ipynb   
+
+This notebook contains the code used to generate the ROGUE scores and save them into required files.   
+
 
 
 ## Citation

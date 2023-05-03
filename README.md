@@ -4,10 +4,17 @@
 
 The project used BERTSum and BERTopic and provides a pipeline for extracting summaries from podcast transcripts and then perfoming topic modelling on them.
 
-1) **Summarizer_pipeline.ipynb**   
+1) **Evaluation**   
+
+This folder contains the notebooks that are needed to evaluate the pipeline and the preliminary analysis.   
+A description of all the notebooks in the folder is specified within the folder.   
+Notebooks *'Mapping_summary_to_transcript'* and *'Preliminary_analysis'* can be run independent of the generated summaries. 
+However, *'Generate_abstractive_summaries'* and *'Rogue_scores'* can only be run after running the BERTSum model present in *'Summarizer_pipeline'*
+
+2) **Summarizer_pipeline.ipynb**   
 
 This notebook contains the code that is to be used to generate the summaries for the transcripts that were provided in the dataset.   
-The notebook needs the transcripts to be stored in an excel file as a column. 
+The notebook needs the transcripts to be stored in an excel file as a column.  
 It outputs another excel file with the summaries in another column.
 
 

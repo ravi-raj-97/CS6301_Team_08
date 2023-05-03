@@ -4,6 +4,13 @@
 
 The project used BERTSum and BERTopic and provides a pipeline for extracting summaries from podcast transcripts and then perfoming topic modelling on them.
 
+1) **Summarizer_pipeline.ipynb**   
+
+This notebook contains the code that is to be used to generate the summaries for the transcripts that were provided in the dataset.   
+The notebook needs the transcripts to be stored in an excel file as a column. 
+It outputs another excel file with the summaries in another column.
+
+
 
 ## Citation
 ```

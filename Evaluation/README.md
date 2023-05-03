@@ -9,11 +9,15 @@ This folder contains the files used in the experiments and evaluations.
 This notebook contains the code that was used to map the summaries that were provided in the RSS headers, to the transcripts in the dataset.   
 Key points to note - Not every episode in the XML is mapped to the test set. Hence the need for this step.   
 
-2) **Generate_abstractive_summaries.ipynb**   
+2) **Preliminary_analysis.ipynb**   
+
+This notebook contains the code run to interpret the dataset and a preliminary quantitative analysis. 
+
+3) **Generate_abstractive_summaries.ipynb**   
 
 This notebook contains the code that was generate the abstractive summaries for the whole transcript and the extractive summaries generated using the Summarizer_pipeline.ipynb notebook.   
 
-3) **Rogue_scores.ipynb**     
+4) **Rogue_scores.ipynb**     
 
 This notebook contains the code used to generate the ROGUE scores and save them into required files. It also shows the table that gives the ROGUE scores presented in the report.
 

@@ -17,7 +17,13 @@ However, *'Generate_abstractive_summaries'* and *'Rogue_scores'* can only be run
 
 This notebook contains the code that is to be used to generate the summaries for the transcripts that were provided in the dataset.   
 The notebook needs the transcripts to be stored in an excel file as a column.  
-It outputs another excel file with the summaries in another column.
+It outputs another excel file with the summaries in another column.   
+
+3) **Topic_modeling_pipeline.ipynb**   
+
+This notebook contains the code that is to be used to generate the topics per summary.   
+The notebook needs the summaries to be stored in an excel file as a column.  
+It outputs another excel file with the topics in another column.
 
 
 

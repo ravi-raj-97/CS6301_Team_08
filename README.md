@@ -2,7 +2,9 @@
 ## Deep Learning for NLP 
 ### Team 08
 
-The project used BERTSum and BERTopic and provides a pipeline for extracting summaries from podcast transcripts and then perfoming topic modelling on them.
+The project used BERTSum and BERTopic and provides a pipeline for extracting summaries from podcast transcripts and then perfoming topic modelling on them.   
+Since the original owners of the dataset keep it restricted, we cannot publish components of the data on a public forum.   
+Hence, it is required that we request you to not share the results elsewhere. The link to the data can be found in the **6. Experiments and Results** section of the report.   
 
 1) **Evaluation**   
 
